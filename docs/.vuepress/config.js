@@ -20,6 +20,10 @@ module.exports = {
         ]
       },
       {
+        title: "Nginx",
+        children: ["/article/nginx/nginxConfig"]
+      },
+      {
         title: "Machine Learning",
         children: [
           /* ... */

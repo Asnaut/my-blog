@@ -1,12 +1,12 @@
-# cookies
+# Cookies
 
-由于 cookies中存储的是string类型，在将数据存入cookies中是，需要首先从json格式转化成string格式。
+由于 Cookies中存储的是string类型，在将数据存入cookies中是，需要首先从json格式转化成string格式。
 
 ```javascript
 JSON.stringify() //turn json to string
 ```
 
-同样，当从cookies中读取数据时，也要从string转化成json。
+同样，当从 Cookies 中读取数据时，也要从string转化成json。
 
 ```javascript
 JSON.parse() //turn string to json
